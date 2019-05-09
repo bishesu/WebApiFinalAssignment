@@ -1,0 +1,104 @@
+
+.navbar-brand{
+height: 50px;
+}
+.navbar-brand img{
+    height: 30px;
+    padding-left: 10px;    
+}
+
+.nav-item{
+    margin-top: 5px;
+    
+}
+html,
+body,
+header,
+#intro{
+    height: 100%;
+    margin: 0px;
+}
+#intro{
+    background: url("../images/temple.jpg");
+    background-size: cover;
+    background-position: center center fixed;
+    position: relative;
+    z-index: -15;
+   
+}
+.full-bg-img{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+width: 100%;
+z-index: -5;
+}
+h2{
+    font-family: cursive;
+}
+.btn{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top:2px; 
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
